@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" /><title>Resume Builder</title>
+</head>
+
+<body>
+<!-- <header> -->
+<h1>
+
+<div id ="headerBanner">
+        <input 
+        id="fullNameInput"
+        type="text" 
+        placeholder="Enter Full Name Here">
+        </input>
+</div>
+  
+</h1> 
+
+    <!-- <form> -->  
+<section id="nameOptionsSection">
+
+        <div id="hideButton">  <button 
+        id="hideoptionsButton"
+        onclick="myFunction()">Hide Options
+        </button></div>
+  
+            <div id="textDecoration"> 
+                <b>NAME OPTIONS:</b><br>
+
+                <div id="allCapsNameDiv">  <input 
+                    type="checkbox"
+                    id="allCapsNameInput" 
+                    name="allcaps" 
+                ><label 
+                    for="allCapsNameInput"><b>ALL CAPS</b>
+                </label>
+            </div>
+                            <div id="underlineButtonDiv">
+                                
+                                <input 
+                                    type="checkbox"
+                                    id="underlineButtonInput" 
+                                    name="underline" 
+                                ><label 
+                                    for="underlineButtonInput"><b>UNDERLINE</b>
+                                </label>
+                            </div>
+                            
+
+                            <div id="italicButtonDiv">  <input 
+                                type="checkbox"
+                                id="italicButtonInput" 
+                                name="italic" 
+                            ><label 
+                                for="italicButtonInput"><b>ITALIC</b>
+                            </label>
+                        </div>
+                            <div id="cursiveButtonDiv">  <input 
+                                type="checkbox"
+                                id="cursiveButtonInput" 
+                                name="cursive" 
+                            ><label 
+                                for="cursiveButtonInput"><b>CURSIVE</b>
+                            </label>
+                        </div>
+                            
+            </div>
+     
+            <div id="textAlign">
+                <b>NAME ALIGNMENTS:</b>
+                <br>
+                <br>
+                <div id="centerNameDiv">
+                <input 
+                type="radio"
+                id="centerButtonInput" 
+                name="align" 
+                ><label 
+                for="centerButtonInput"
+                ><b>CENTER</b>
+                </label>
+                </div>
+
+            <div id="leftNameDiv">
+            <input 
+            type="radio"
+            id="leftButtonInput" 
+            name="align" 
+            ><label 
+            for="leftButtonInput"
+            ><b>LEFT</b>
+            </label>
+            </div>
+
+            <div id="rightNameDiv">
+            <input 
+            type="radio"
+            id="rightButtonInput" 
+            name="align" 
+            ><label 
+            for="rightButtonInput"
+            ><b>RIGHT</b>
+            </label>
+        </div>
+
+            </div>     
+            
+
+    
+<div id="textColor">
+            
+
+                <div id="fontColorDiv">
+                    <b>FONT COLOR:</b>
+                            <input 
+                                type="radio"
+                                id="blueButtonInput" 
+                                name="color" 
+                            ><label 
+                                for="blueButtonInput"
+                                ><b>BLUE</b>
+                            </label>
+
+                            <input 
+                                type="radio"
+                                id="greyButtonInput" 
+                                name="color"
+                            ><label 
+                                for="greyButtonInput"
+                               ><b>GREY</b>
+                            </label>
+
+                            <input 
+                                type="radio"
+                                id="whiteButtonInput" 
+                                name="color"  
+                            ><label 
+                                for="whiteButtonInput"
+                               ><b>WHITE</b>
+                            </label>
+
+                            <input 
+                                type="radio"
+                                id="redButtonInput" 
+                                name="color"   
+                            ><label 
+                                for="redButtonInput"
+                                ><b>RED</b>
+                            </label>
+
+                            <button type="submit" id="fontColorResetButton">Reset</button>
+                    </div>
+            
+
+                    <div id="bgColorDiv"> 
+                                <b>BACKGROUND COLOR:</b>
+
+                                <input 
+                                type="radio"
+                                id="blueBackgroundInput" 
+                                name="background"
+                                ><label 
+                                for="blueBackgroundInput"
+                                ><b>BLUE</b>
+                                </label>
+
+
+                                <input 
+                                type="radio"
+                                id="greyBackgroundInput" 
+                                name="background"
+                                ><label 
+                                for="greyBackgroundInput"
+                                ><b>GREY</b>
+                                </label>
+
+                                <input 
+                                type="radio"
+                                id="blackBackgroundInput" 
+                                name="background"
+                                ><label 
+                                for="blackBackgroundInput"
+                                ><b>BLACK</b>
+                                </label>
+
+                                <input 
+                                type="radio"
+                                id="redBackgroundInput" 
+                                name="background"
+                                
+                                ><label 
+                                for="redBackgroundInput"
+                                ><b>RED</b>
+                                </label>
+                                
+                                <button type="submit" id="bgColorResetButton">Reset</button>
+                         </div>
+                    <div id="fontSizeDiv"> 
+                                <b>FONT SIZE:</b>
+
+                                <input 
+                                type="radio"
+                                id="lNameInput" 
+                                name="nameFont"
+                                ><label 
+                                for="largeNameFont"
+                                ><b>L</b>
+                                </label>
+
+
+                                <input 
+                                type="radio"
+                                id="xlNameInput" 
+                                name="nameFont"
+                                ><label 
+                                for="xlNameInput"
+                                ><b>XL</b>
+                                </label>
+
+                                <input 
+                                type="radio"
+                                id="xxlNameInput" 
+                                name="nameFont"
+                                ><label 
+                                for="xxlNameInput"
+                                ><b>XXL</b>
+                                </label>
+
+                                <input 
+                                type="radio"
+                                id="smallNameInput" 
+                                name="nameFont"
+                                ><label 
+                                for="smallNameInput"
+                                ><b>S</b>
+                                </label>
+
+                                <button type="submit" id="nameSizeResetButton">Reset</button>
+                         </div>
+
+</div>
+
+            </div>
+</section>
+
+
+    <!-- </form> -->
+<!-- </header> -->
+<br>
+<br>
+<br>
+<section>
+<input type="submit">Address</input>
+</section>
+
+
+
+    <script src="./script.js"></script>    
+</body>
+</html>

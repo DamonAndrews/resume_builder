@@ -1,0 +1,61 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.18em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    /* font-size:60px; */
+   
+}
+#headerBanner{
+    width: 100%;
+    height: 100%;
+}
+
+#fullNameInput{
+    font-family:'normal';
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    font-size:110px;
+}
+
+section{
+    border:2px;
+    border-color: black;
+    border-style: solid; 
+    width: 100%;
+    padding: 10px 0;
+    background-color: lightblue;
+    margin-top: 1px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#textDecoration{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+   
+}
+#textColor{
+    display: flex;
+     flex-direction:column;
+    justify-content: right;
+    justify-items: flex-end; 
+}
+#hideoptionsButton{
+    background-color: brown;
+    color: white;
+  
+    
+}
